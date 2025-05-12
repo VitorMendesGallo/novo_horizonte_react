@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "novo-horizonte-react-vitor"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "novo-horizonte-react-vitor-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
